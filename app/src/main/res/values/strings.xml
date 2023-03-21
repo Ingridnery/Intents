@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="abrir_no_navegador">Abrir no navegador</string>
+    <string name="outras_inten_es">Outras intenções</string>
+    <string name="chamar_numero">Chamar numero</string>
+    <string name="discar_numero">Discar Numero</string>
+    <string name="pegar_imagem">Pegar Imagem</string>
+    <string name="selecionar_app">Selecionar app</string>
+</resources>

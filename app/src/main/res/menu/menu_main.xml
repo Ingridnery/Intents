@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/viewMi"
+        android:icon="@drawable/ic_navegador"
+        android:title="@string/abrir_no_navegador"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/outras_inten_es"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:title="@string/chamar_numero"
+                android:id="@+id/callMi"/>
+            <item
+                android:title="@string/discar_numero"
+                android:id="@+id/dialMi"/>
+            <item
+                android:title="@string/pegar_imagem"
+                android:id="@+id/pickMi"/>
+            <item
+                android:title="@string/selecionar_app"
+                android:id="@+id/chooserMi"/>
+
+        </menu>
+    </item>
+
+</menu>
